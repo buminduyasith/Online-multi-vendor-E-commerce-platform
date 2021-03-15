@@ -1,0 +1,24 @@
+.order-summary-title{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #212121;
+}
+
+.ordersummary_subtotal_title{
+    
+    color: #757575;
+    
+}
+
+.ordersummary_total_title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
+    margin-top: 50px;
+}
+
+.ordersummary_total_total_value{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f57224;
+}

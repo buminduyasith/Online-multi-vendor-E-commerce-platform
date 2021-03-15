@@ -1,0 +1,104 @@
+import React,{useState,useEffect} from 'react'
+import './SellerDashboard.css'
+// import * as mui from '@material-ui/core';
+import axios from 'axios'
+
+import AddProduct from './AddProduct'
+import Orders from './Orders'
+import {useAuth} from "../../../states/UserProvider"
+import {useStateValue} from '../../../states/StateProvider'
+import Swal from 'sweetalert2'
+
+function SellerDashboard() {
+
+    const [tab,settab] = useState("product");
+    const {currentUser,setCurrentUser,signout} = useAuth();
+    const [state,dispatch] = useStateValue();
+
+    const handletabchange = (event)=>{
+        settab(event.target.id)
+    }
+
+
+    useEffect(() => {
+      axios.get('http://localhost:8081/api/v1/sellers?email='+currentUser.sub)
+      .then(res => {
+         console.log(res);
+         setCurrentUser({...currentUser,data:res.data});
+      })
+      .catch(err => {
+          console.log(err);
+          console.log(err.response);
+      })
+  }, [])
+
+
+  const handleSignout = ()=>{
+       
+  
+    signout();
+}
+    
+
+    return (
+
+        
+       <div className="Seller_dashboard container mt-2">
+
+        <div className="jumbotron">
+            <h1 className="display-4">Seller Dashboard</h1>
+            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr className="my-4"></hr>
+        </div>
+      
+
+      <div className="row mt-5">
+        <div className="col-md-3 ">
+          <div className="card" style={{ width: "18rem" }}>
+            <div className="card-header">Featured</div>
+            <ul className="list-group list-group-flush ">
+              <a className={'list-group-item list-group-item-action '} id="product" onClick={handletabchange}  >Add Product</a>
+              <a className={'list-group-item list-group-item-action '} id="orders"  onClick={handletabchange} >orders</a>
+              <a className={'list-group-item list-group-item-action '} >GAMING Workstation</a>
+              <a className={'list-group-item list-group-item-action '} >GRAPHIC CARDS</a>
+            </ul>
+          </div>
+
+            
+          {/* 1col */}
+        </div>
+
+        <div className="col-md-8 offset-md-1">
+
+            {
+              tab=="product" && <AddProduct />
+              
+            }
+
+            {
+              tab=="orders" && <Orders />
+              
+            }   
+          
+      
+          {/* 2col */}
+        </div>
+
+        {/* 2row */}
+      </div>
+
+            
+
+       
+          
+  
+
+ 
+
+       </div>
+ 
+        
+    )
+}
+
+export default SellerDashboard

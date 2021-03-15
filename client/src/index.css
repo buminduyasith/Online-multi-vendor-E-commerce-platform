@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #f3f3f3; */
+  /* background-color: #eff0f5 !important; */
+  background-color: #fff !important;
+}
+
+code {
+  font-family:'Roboto', sans-serif !important;
+}
+
+.alertify-notifier .ajs-message.ajs-success {
+  background: rgba(255, 193, 7) !important;
+  color: #fff;
+  text-align: center;
+}
+
+.alertify-notifier .ajs-message.ajs-error{
+  color: #fff;
+  background: rgb(224, 60, 60) !important;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0,5);
+  text-align: center;
+}
+
+.orders{
+  background-color: #fff !important;
+  width:100% !important;
+  height: 100vh;
+}
+
+.ListProduct__empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ListProduct__empty__img{
+  object-fit: contain;
+  width:300px;
+}
+
+

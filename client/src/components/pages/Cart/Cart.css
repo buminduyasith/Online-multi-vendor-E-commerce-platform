@@ -1,0 +1,54 @@
+.custom-controlers{
+    font-size: 20px;
+}
+
+.badgecus{
+   
+    padding: 15px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cusinput{
+
+}
+
+.product{
+    display: flex;
+    
+}
+
+.product-details{
+    margin-left: 20px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img{
+    max-width: 100px;
+    object-fit: contain;
+
+}
+
+input[type="number"]{
+
+    text-align: center;
+}
+
+.emptycartimg{
+
+    object-fit: contain;
+    width:300px;
+
+}
+
+.cartempty{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

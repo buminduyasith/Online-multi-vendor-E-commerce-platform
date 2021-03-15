@@ -1,0 +1,11 @@
+.Myorders__empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Myorders__empty__img{
+    object-fit: contain;
+    width:300px;
+}

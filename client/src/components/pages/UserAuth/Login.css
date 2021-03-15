@@ -1,0 +1,97 @@
+
+
+.signin-form{
+    /* background: #f3f3f3;*/
+    height: 100vh;
+    width: 100vw;
+}
+
+.signin-form h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin-form .form-control {
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+}
+
+.is-invalid{
+	border: solid 2px #dc3545 !important;
+}
+
+
+.signin-form .form-control:focus {
+	background: #e2e2e2;
+}
+.signin-form .form-control, .btn {        
+	border-radius: 3px;
+}
+.signin-form {
+	width: 600px !important;
+	margin: 30px auto;
+}
+.signin-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signin-form h2  {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signin-form hr  {
+	margin: 0 -30px 20px;
+}    
+.signin-form .form-group {
+	margin-bottom: 20px;
+}
+.signin-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signin-form .row div:first-child {
+	padding-right: 10px;
+}
+.signin-form .row div:last-child {
+	padding-left: 10px;
+}
+.signin-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.signin-form .btn:hover, .signin-form .btn:focus {
+	background: #2389cd !important;
+	outline: none;
+}
+.signin-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signin-form a:hover {
+	text-decoration: none;
+}
+.signin-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}	
+.signin-form form a:hover {
+	text-decoration: underline;
+}
+.signin-form .hint-text  {
+	padding-bottom: 15px;
+	text-align: center;
+} 
+
+
+.usernameerror{
+    text-align: center;
+}
