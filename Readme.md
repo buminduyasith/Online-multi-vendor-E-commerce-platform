@@ -30,17 +30,17 @@ Simple E-Commerce platform which is based on the microservices architecture And 
 ## Screenshots
 
 
-Menu page  |  Product page
-:------------------------:|:-------------------------:
-![Product page](img/products)  |  ![Product page](img/cart)
+Product page |  Product Details Page
+:------------------------:|:-------------------------:  
+![Product page](img/products.JPG)  |  ![product Details page](product_more_details.JPG)
 
-List of users  |  List of orders
-:------------------------:|:-------------------------:
-![List of users]()  |  ![List of orders]()
+Cart  |  Shipping Details 
+:------------------------:|:-------------------------:  
+![Cart](img/cart.JPG)  |  ![Shipping details](shipping_details.JPG)  
 
-User profile page  |  User order page
+Confirm Order  |  Purchase Successful
 :------------------------:|:-------------------------:
-![List of users]()  |  ![List of orders]()
+![Confirm Order](confirm_order.JPG)  |  ![purchase successful](purchase_success.JPG)
 
 Add perfume page  |  Edit perfume page
 :------------------------:|:-------------------------:
