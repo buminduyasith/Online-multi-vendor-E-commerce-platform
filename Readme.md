@@ -36,14 +36,14 @@ Menu page  |  Product page
 
 List of users  |  List of orders
 :------------------------:|:-------------------------:
-![List of users](https://i.ibb.co/T88cFZt/all-users.jpg)  |  ![List of orders](https://i.ibb.co/4f7F0hk/all-orders.jpg)
+![List of users]()  |  ![List of orders]()
 
 User profile page  |  User order page
 :------------------------:|:-------------------------:
-![List of users](https://i.ibb.co/KDF3FZX/user-page.jpg)  |  ![List of orders](https://i.ibb.co/rkbDMB9/order-page.jpg)
+![List of users]()  |  ![List of orders]()
 
 Add perfume page  |  Edit perfume page
 :------------------------:|:-------------------------:
-![Add perfume page](https://i.ibb.co/KGKhJxR/add-perfume.jpg)  |  ![Password change](https://i.ibb.co/cTddspr/edit-perfume.jpg)
+![Add perfume page]()  |  ![Password change]()
 
 
