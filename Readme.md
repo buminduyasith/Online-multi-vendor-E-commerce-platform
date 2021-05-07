@@ -29,6 +29,9 @@ Simple E-Commerce platform which is based on the microservices architecture And 
 
 ## Screenshots
 
+Sign in Page |  Sign up page
+:------------------------:|:-------------------------:
+![Sign in Page](img/login.JPG)  |  ![ Sign up page](img/signup.JPG)
 
 Product page |  Product Details Page
 :------------------------:|:-------------------------:  
@@ -42,8 +45,19 @@ Confirm Order  |  Purchase Successful
 :------------------------:|:-------------------------:
 ![Confirm Order](img/confirm_order.JPG)  |  ![purchase successful](img/purchase_success.JPG)
 
-Add perfume page  |  Edit perfume page
+Orders  |  Seller dashboard
 :------------------------:|:-------------------------:
-![Add perfume page]()  |  ![Password change]()
+![Orders](img/my_orders.JPG)  |  ![seller dashboard](img/sellerdashboard.JPG)
+
+Product add  |  Product update
+:------------------------:|:-------------------------:
+![Orders](img/product_update.JPG)  |  ![seller dashboard](img/product_update.JPG)
+
+Customer Orders
+![Orders](img/customer_orders.JPG)
+
+
+
+
 
 
