@@ -27,4 +27,23 @@ Simple E-Commerce platform which is based on the microservices architecture And 
 - Back-end: Spring Boot, JPA / Hibernate, MYSQL, validation, spring security,jwt
 - Front-end: React.js, context api, material ui,react-router-dom , React Hook Form , alertifyjs , axios , draft-js , react-currency-format , sweetalert2 yup , react-spinners
 
+## Screenshots
+
+
+Menu page  |  Product page
+:------------------------:|:-------------------------:
+![Product page](img/products)  |  ![Product page](img/cart)
+
+List of users  |  List of orders
+:------------------------:|:-------------------------:
+![List of users](https://i.ibb.co/T88cFZt/all-users.jpg)  |  ![List of orders](https://i.ibb.co/4f7F0hk/all-orders.jpg)
+
+User profile page  |  User order page
+:------------------------:|:-------------------------:
+![List of users](https://i.ibb.co/KDF3FZX/user-page.jpg)  |  ![List of orders](https://i.ibb.co/rkbDMB9/order-page.jpg)
+
+Add perfume page  |  Edit perfume page
+:------------------------:|:-------------------------:
+![Add perfume page](https://i.ibb.co/KGKhJxR/add-perfume.jpg)  |  ![Password change](https://i.ibb.co/cTddspr/edit-perfume.jpg)
+
 
