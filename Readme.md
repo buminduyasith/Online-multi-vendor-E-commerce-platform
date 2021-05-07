@@ -32,15 +32,15 @@ Simple E-Commerce platform which is based on the microservices architecture And 
 
 Product page |  Product Details Page
 :------------------------:|:-------------------------:  
-![Product page](img/products.JPG)  |  ![product Details page](product_more_details.JPG)
+![Product page](img/products.JPG)  |  ![product Details page](img/product_more_details.JPG)
 
 Cart  |  Shipping Details 
 :------------------------:|:-------------------------:  
-![Cart](img/cart.JPG)  |  ![Shipping details](shipping_details.JPG)  
+![Cart](img/cart.JPG)  |  ![Shipping details](img/shipping_details.JPG)  
 
 Confirm Order  |  Purchase Successful
 :------------------------:|:-------------------------:
-![Confirm Order](confirm_order.JPG)  |  ![purchase successful](purchase_success.JPG)
+![Confirm Order](img/confirm_order.JPG)  |  ![purchase successful](img/purchase_success.JPG)
 
 Add perfume page  |  Edit perfume page
 :------------------------:|:-------------------------:
